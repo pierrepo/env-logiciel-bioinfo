@@ -2,6 +2,8 @@
 
 ## Compilation du cours avec conda
 
+Installer [miniconda(https://docs.anaconda.com/miniconda/index.html)] ([tutoriel pour l'installation officiel](https://python.sdv.u-paris.fr/annexe_B_install_python/))
+
 Créer l'environnement conda :
 
 ```bash
@@ -21,4 +23,5 @@ jupyter-book build cours
 ```
 
 La version HTML du cours se trouve dans le répertoire `cours/_build/html`.
+
 
