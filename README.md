@@ -1,6 +1,6 @@
 # Environnements logiciel pour la bioinformatique
 
-## Compilation du cours avec conda
+## Compiler le cours dans un environnement conda
 
 Installer [miniconda(https://docs.anaconda.com/miniconda/index.html)] ([tutoriel pour l'installation officiel](https://python.sdv.u-paris.fr/annexe_B_install_python/))
 
@@ -24,4 +24,9 @@ jupyter-book build cours
 
 La version HTML du cours se trouve dans le répertoire `cours/_build/html`.
 
+
+## Compiler le cours dans un environnement Pixi
+
+
+Installer [Pixi](https://pixi.sh/latest/)
 
