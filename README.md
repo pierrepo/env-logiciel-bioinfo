@@ -22,7 +22,7 @@ Compiler le cours :
 jupyter-book build cours
 ```
 
-La version HTML du cours se trouve dans le répertoire `cours/_build/html`.
+La version HTML du cours se trouve dans le répertoire `cours/_build/html/index.html`.
 
 
 ## Compiler le cours dans un environnement Pixi
