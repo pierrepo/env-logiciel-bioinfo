@@ -54,6 +54,8 @@ Le terme « Conda » désigne un logiciel, mais également tout un écosystème 
 
 Vous êtes invités à visualiser cette vidéo : [Anaconda(Conda) for Python - What & Why?](https://www.youtube.com/watch?v=23aQdrS58e0) (Academind, YouTube, 2018) (au moins jusqu'à 5'30 en cours, le reste par vous-mêmes).
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/23aQdrS58e0?si=-7PZQsy7NR0vOxcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## Une note sur Mamba
 
