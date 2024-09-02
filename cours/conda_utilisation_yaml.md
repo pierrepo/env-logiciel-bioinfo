@@ -14,8 +14,7 @@ channels:
     - conda-forge
 dependencies:
     - fastqc
-    - bowtie2
-    - htseq
+    - star>=2.6
     - samtools=1.9
 ```
 
@@ -23,7 +22,7 @@ Plusieurs sections sont présentes :
 
 - `name` : nom de l'environnement
 - `channels` : canaux qui seront utilisés pour installer les logiciels. L'ordre de ces canaux est important. Priorité est donnée au dernier canal.
-- `dependencies` : liste des logiciels à installer
+- `dependencies` : liste des logiciels à installer. On peut préciser ou pas la version des logiciels voulus.
 
 
 ## Créer un environnement
@@ -64,9 +63,11 @@ Comparez par exemple les fichiers `rnaseq.yml` et `rnaseq_export.yml` obtenus pa
 
 
 ```bash
-
+$ conda env create -f rnaseq.yml 
+$ conda env export -n rnaseq --no-builds | grep -v "^prefix:" > rnaseq_export.yml
 ```
 
+Vous retrouvez les trois logiciels demandés (`fastqc`, `star` et `samtools`) mais aussi toutes les dépendances de ces logiciels (43 au total).
 
 
 

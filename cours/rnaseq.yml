@@ -1,0 +1,9 @@
+name: rnaseq
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - fastqc
+    - star>=2.6
+    - samtools=1.9
