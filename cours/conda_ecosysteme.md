@@ -52,7 +52,7 @@ Le terme « Conda » désigne un logiciel, mais également tout un écosystème 
 - Conda-forge et Bioconda sont des canaux de diffusion de logiciels (des sortes d'entrepôts).
 
 
-Vous êtes invités à visualiser cette vidéo : [Anaconda(Conda) for Python - What & Why?](https://www.youtube.com/watch?v=23aQdrS58e0) (Academind, YouTube, 2018) jusqu'à 5'30.
+Vous êtes invités à visualiser cette vidéo : [Anaconda(Conda) for Python - What & Why?](https://www.youtube.com/watch?v=23aQdrS58e0) (Academind, YouTube, 2018) (au moins jusqu'à 5'30 en cours, le reste par vous-mêmes).
 
 
 ## Une note sur Mamba
