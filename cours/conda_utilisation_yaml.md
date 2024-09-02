@@ -67,7 +67,14 @@ $ conda env create -f rnaseq.yml
 $ conda env export -n rnaseq --no-builds | grep -v "^prefix:" > rnaseq_export.yml
 ```
 
-Vous retrouvez les trois logiciels demandés (`fastqc`, `star` et `samtools`) mais aussi toutes les dépendances de ces logiciels (43 au total).
+Vous retrouvez les trois logiciels demandés (`fastqc`, `star` et `samtools`) mais aussi toutes les dépendances de ces logiciels (78 au total).
+
+```{tip}
+Plutôt d'exporter brutalement votre environnement Conda dans un fichier `environment.yml`, je vous conseille de le créer itérativement. C'est-à-dire qu'à chaque fois que vous avez besoin d'un nouveau logiciel, vous indiquez son nom et éventuellement sa version dans le fichier `environment.yml`, puis vous mettez à jour votre environnement avec la commande :
+
+```bash
+$ conda env update -f environment.yml
+```
 
 
 ## Réinstaller un environnement précédemment exporté

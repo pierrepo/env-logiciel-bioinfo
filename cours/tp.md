@@ -1,6 +1,6 @@
-# TP
+# TP Conda
 
-## Conda
+## Valider l'installation
 
 Si vous utilisez votre machine personnelle, vous devez avoir installé Miniconda.
 Si vous êtes dans une salle informatique de l'UFR Sciences du Vivant, Miniconda a déjà été installé pour vous.
@@ -32,14 +32,9 @@ Sur votre machine personnelle, vous devriez avoir l'environnement `base` et peu 
 Sur les machines des salles informatiques, vous devriez avoir plusieurs environnements déjà créés.
 
 
+## Explorer un environnement 
 
-
-
-
-
-## Exploration d'un environnement 
-
-Créez l'environnement conda `rnaseq` à partir du fichier [rnaseq.yml](https://raw.githubusercontent.com/pierrepo/intro-conda/master/rnaseq.yml). Utilisez `mamba`.
+Créez l'environnement conda `rnaseq` à partir du fichier [rnaseq.yml](https://raw.githubusercontent.com/pierrepo/env-logiciel-bioinfo/main/cours/rnaseq.yml).
 
 Chargez ce nouvel environnement.
 
@@ -47,11 +42,12 @@ Quelle version a été installée pour les logiciels :
 
 - fastqc ? (`fastqc --version`)
 - samtools ? (`samtools --version`)
+- star ? (`STAR --version`)
 
-Quelles sont les dernières version disponibles dans conda ? (<https://anaconda.org/search>)
+Quelles sont les dernières versions disponibles dans conda ? (<https://anaconda.org/search>)
 
 
-## Création de votre environnement pour le projet court
+## Créer votre environnement pour le projet court
 
 Essayez de créer un environnement conda pour votre projet court.
 
@@ -65,22 +61,30 @@ Pour chacun de ces éléments, vérifiez s'il est disponible dans conda. Utilise
 
 Que faire si ce n'est pas le cas ?
 
-Créez un fichier `environment.yml` qui contient la description de votre environment (inspirez-vous de [rnaseq.yml](https://raw.githubusercontent.com/pierrepo/intro-conda/master/rnaseq.yml)), puis installez-le avec `mamba`. Conseil : dans un premier temps, ne préciser par les versions des outils que vous installez.
+Créez un fichier `environment.yml` qui contient la description de votre environnement (`inspirez-vous du fichier rnaseq.yml` précédent), puis installez-le avec `conda`.
+
+```{tip}
+Dans un premier temps, ne préciser par les versions des outils que vous installez.
+``
 
 Chargez votre environnement et vérifiez que tous les langages, bibliothèques et logiciels dont vous avez besoin sont présents.
 
 S'il manque des outils, modifiez le fichier `environment.yml` puis mettez à jour votre environnement avec la commmande :
 
 ```bash
-mamba env update -f environment.yml
+$ conda env update -f environment.yml
 ```
 
 Vérifiez encore une fois que tous les outils dont vous avez besoin sont disponibles.
 
-Déconnectez-vous de votre environnement. Vérfiez que les outils de votre projet ne sont plus disponibles. Chargez à nouveau notre environnement et vérifiez une dernière fois que tous les outils sont présents.
+Déconnectez-vous de votre environnement. Vérifiez que les outils de votre projet ne sont plus disponibles. Chargez à nouveau notre environnement et vérifiez une dernière fois que tous les outils sont présents.
 
 Déposez votre fichier `environment.yml` dans le dépôt GitHub de votre projet court.
 
-Pensez enfin à **écrire une notice** (par exemple dans un fichier `README.md` comme [celui-ci](https://github.com/MDverse/mdws/) ou [celui-là](https://github.com/data-fun/3d-genome-builder)) décrivant la manière de construire votre environnement conda et si besoin, d'installer les logiciels tierces non disponibles dans conda.
+Pensez enfin à **écrire une notice**, un fichier `README.md` (au format Markdown) qui décrira très précisément la manière de construire votre environnement conda, éventuellement d'installer les logiciels tierces non disponibles dans conda, et enfin les manières de lancer votre programme. Voici quelques exemples :
 
+- outil [MDWS](https://github.com/MDverse/mdws/) du projet MDverse
+- projet [3DGB](https://github.com/data-fun/3d-genome-builder)
+- projet [BioPyAssistant](https://github.com/pierrepo/biopyassistant)
+- projet [GroDecode](https://github.com/pierrepo/grodecoder)
 
