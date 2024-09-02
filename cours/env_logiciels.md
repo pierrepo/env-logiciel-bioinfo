@@ -87,12 +87,14 @@ Comment faire pour installer les logiciels A et C sur la même machine ? Les env
 - Dans un second environnement, on installe le logiciel C avec la bibliothèque B version 2.3.
 
 
-### Isolement des environnements
+### Isoler les environnements
 
 Les environnements logiciels sont la plupart du temps des boites isolées du reste du système d'exploitation. C'est-à-dire que lorsqu'on installe un programme dans un environnement logiciel, le programme n'est pas installé là où tous les autres programmes (navigateur web, éditeur de code...) sont installés, mais dans un répertoire différent, dédié à cet environnement. Cela évite ainsi de « polluer » votre système d'exploitation avec des logiciels qui ne vous servent que pour un projet particulier.
 
+Il est recommandé de créer un environnement logiciel par projet. Cela permet de ne pas mélanger les dépendances des différents projets.
 
-### Gestion des droits facilitée
+
+### Faciliter l'installation
 
 Les solutions présentées ici (notamment conda) pour gérer des environnements logiciels ne nécessitent pas de droits administrateurs pour être installées. Cela signifie que vous pouvez installer ces outils de gestion d'environnement logiciel (par exemple Miniconda) sans avoir besoin de demander à un administrateur système de le faire pour vous.
 

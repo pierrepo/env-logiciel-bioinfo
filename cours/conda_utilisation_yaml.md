@@ -2,9 +2,9 @@
 
 Il est possible de décrire un environnement conda dans un fichier au format YAML.
 
-## Fichier YAML
+## Exemple
 
-Par exemple le fichier `rnaseq.yml` utilisé pour construire un environnement pour l'analyse de données RNA-seq :
+Le fichier `rnaseq.yml` ci-dessous est utilisé pour construire un environnement pour l'analyse de données RNA-seq :
 
 ```
 name: rnaseq
@@ -22,7 +22,7 @@ Plusieurs sections sont présentes :
 
 - `name` : nom de l'environnement
 - `channels` : canaux qui seront utilisés pour installer les logiciels. L'ordre de ces canaux est important. Priorité est donnée au premier canal (d'abord `conda-forge` puis `bioconda`). `nodefaults` signifie que le canal par défaut par Anaconda ne sera pas utilisé.
-- `dependencies` : liste des logiciels à installer. On peut préciser ou pas la version des logiciels voulus.
+- `dependencies` : liste des logiciels à installer. On peut préciser ou pas la version des logiciels voulues.
 
 
 ## Créer un environnement
@@ -59,7 +59,7 @@ $ conda env export -n ENVNAME --no-builds | grep -v "^prefix:" > envname.yml
 ```
 
 Le fichier `envname.yml` va contenir la liste de **tous** les logiciels installés et de leurs **dépendances**. C'est parfois un peu *too much*.
-Comparez par exemple les fichiers [`rnaseq.yml`](https://raw.githubusercontent.com/pierrepo/env-logiciel-bioinfo/main/cours/rnaseq.yml) et [`rnaseq_export.yml`](https://raw.githubusercontent.com/pierrepo/env-logiciel-bioinfo/main/cours/rnaseq_export.yml) obtenus par :
+Comparez par exemple les fichiers [`rnaseq.yml`](https://raw.githubusercontent.com/pierrepo/env-logiciels-bioinfo/main/cours/rnaseq.yml) et [`rnaseq_export.yml`](https://raw.githubusercontent.com/pierrepo/env-logiciels-bioinfo/main/cours/rnaseq_export.yml) obtenus par la création puis l'export de l'environnement `rnaseq` :
 
 
 ```bash

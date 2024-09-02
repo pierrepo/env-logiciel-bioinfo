@@ -1,6 +1,6 @@
 # Pixi
 
-L'utilisation de conda et Miniconda pose plusieurs problèmes :
+Conda et Miniconda pose plusieurs problèmes :
 
 1. L'utilisation de Miniconda est autorisé pour des fins d'enseignement et de recherche, mais Anaconda met de plus en plus la pression sur des organismes de recherche pour qu'ils achètent des licences.
 2. L'installation de paquets via conda peut parfois être encore lente.
@@ -9,24 +9,24 @@ L'utilisation de conda et Miniconda pose plusieurs problèmes :
 [Pixi](https://pixi.sh) est un projet open source écrit en Rust (donc ultra rapide) qui vise à résoudre ces problèmes.
 
 
-## Installer
+## Installer Pixi
 
 https://pixi.sh/latest/
 
 - Pixi est disponible pour Linux, Mac et Windows et il n'est pas nécessaire d'être administrateur pour l'installer.
 - Pixi n'est composé que d'un seul fichier exécutable.
-- Pixi peut installer n'import quel logiciel disponible dans conda ou PyPI.
+- Pixi peut installer n'importe quel logiciel disponible dans conda ou PyPI.
 
 
 ## Créer un environnement
 
-Pixi n'utilise les mêmes fichiers de description d'environnement que conda, mais il est possible de les importer dans Pixi :
+Pixi n'utilise pas les mêmes fichiers de description d'environnement que conda, mais il est possible de les importer dans Pixi :
 
 ```bash
 pixi init ---import rnaseq.yml
 ```
 
-Un fichier `pixi.toml` est créé :
+Un fichier `pixi.toml` est alors créé :
 
 ```toml
 [project]
@@ -45,10 +45,10 @@ star = ">=2.6"
 samtools = "1.9.*"
 ```
 
-Il reprend toutes les caractéristiques du fichier `rnaseq.yml` initial.
+Il reprend toutes les caractéristiques du fichier `rnaseq.yml` initial et en ajoute certaines (`authors`, `description`, `platforms`, `version`).
 
 ```{warning}
-Pixi installe les logiciels dans un répertoire caché (`.pixi`) dans le répertoire courant, contrairement à Conda qui centralise tous les environnements au même endroit. Il n'est pas donc possible de n'avoir qu'un seul environnement Pixi dans un répertoire donné.
+Pixi installe les logiciels dans un répertoire caché (`.pixi`) dans le répertoire courant, contrairement à Conda qui centralise tous les environnements au même endroit. Il n'y a donc qu'un seul environnement Pixi dans un répertoire donné.
 ```
 
 ## Utiliser

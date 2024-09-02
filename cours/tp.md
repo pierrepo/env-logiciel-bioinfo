@@ -26,14 +26,14 @@ Listez les environnements déjà existants :
 conda env list
 ```
 
-Sur votre machine personnelle, vous devriez avoir l'environnement `base` et peu ou pas d'autres environnement.
+Sur votre machine personnelle, vous devriez avoir l'environnement `base` et peu ou pas d'autres environnements.
 
 Sur les machines des salles informatiques, vous devriez avoir plusieurs environnements déjà créés.
 
 
 ## Explorer un environnement 
 
-Créez l'environnement conda `rnaseq` à partir du fichier [rnaseq.yml](https://raw.githubusercontent.com/pierrepo/env-logiciel-bioinfo/main/cours/rnaseq.yml).
+Créez l'environnement conda `rnaseq` à partir du fichier [rnaseq.yml](https://raw.githubusercontent.com/pierrepo/env-logiciels-bioinfo/main/cours/rnaseq.yml).
 
 Chargez ce nouvel environnement.
 
@@ -76,6 +76,8 @@ $ conda env update -f environment.yml
 
 Vérifiez encore une fois que tous les outils dont vous avez besoin sont disponibles.
 
+Procédez ainsi itérativement jusqu'à ce que tous les outils soient présents.
+
 Déconnectez-vous de votre environnement. Vérifiez que les outils de votre projet ne sont plus disponibles. Chargez à nouveau notre environnement et vérifiez une dernière fois que tous les outils sont présents.
 
 Déposez votre fichier `environment.yml` dans le dépôt GitHub de votre projet court.
@@ -87,3 +89,9 @@ Pensez enfin à **écrire une notice**, un fichier `README.md` (au format Markdo
 - projet [BioPyAssistant](https://github.com/pierrepo/biopyassistant)
 - projet [GroDecode](https://github.com/pierrepo/grodecoder)
 
+
+## Exploration Pixi
+
+Essayer d'installer Pixi puis de créer et d'utiliser un environnement avec Pixi.
+
+Quelles sont vos impressions ? Quels avantages et inconvénients voyez-vous par rapport à Conda ?

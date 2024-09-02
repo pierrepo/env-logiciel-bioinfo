@@ -2,6 +2,8 @@
 
 ## Gérer les logiciels
 
+Conda est un gestionnaire de paquets, c'est-à-dire un outil qui permet d'installer, de mettre à jour et de supprimer des logiciels.
+
 ### Chercher un logiciel
 
 ```bash
@@ -18,7 +20,7 @@ jupyterlab                    0.30.4          py35_0  pkgs/main
 
 On obtient une liste des versions disponibles pour le logiciel `jupyterlab`.
 
-On peut également chercher un logiciel dans un canal spécifique :
+On peut également chercher un logiciel dans un canal (= un entrepôt) spécifique :
 
 ```bash
 
@@ -61,7 +63,11 @@ $ conda install -c bioconda hisat2
 $ conda remove jupyterlab
 ```
 
+
 ## Gérer les environnements
+
+Conda est également un gestionnaire d'environnements.
+
 
 ### Créer un environnement
 

@@ -2,7 +2,7 @@
 
 Dans le cadre d'un travail de bioinformatique, nous vous conseillons d'installer [**Miniconda**](https://docs.conda.io/en/latest/miniconda.html).
 
-⚠️ Beaucoup de logiciels de bioinfo dans Bioconda ne sont disponibles que pour Mac et Linux.
+⚠️ Beaucoup de logiciels de bioinformatique dans Bioconda ne sont disponibles que pour Mac et Linux.
 
 Par exemple :
 
@@ -10,13 +10,14 @@ Par exemple :
 - [bowtie2](https://anaconda.org/bioconda/bowtie2)
 - [gromacs](https://anaconda.org/bioconda/gromacs)
 
-Observez les badges verts : « linux-64 », « osx-64 », « linux-aarch64 » ou « osx-arm64 » qui indiquent que ces logiciels sont installables sur des systèmes d'exploitation Linux et Mac OSX.
+Observez les badges verts : « linux-64 », « osx-64 », « linux-aarch64 » ou « osx-arm64 » qui indiquent que ces logiciels sont installables uniquement sur des systèmes d'exploitation Linux et Mac OSX.
 
 Cependant, il existe quelques logiciels également disponibles pour Windows, par exemple :
 
 - [fastqc](https://anaconda.org/bioconda/fastqc)
 
 Le badge vert « noarch » indique que ce logiciel est installable sur n'importe quel système d'exploitation.
+
 
 ## Installer Miniconda sur une machine personnelle
 
@@ -28,7 +29,7 @@ Sur votre machine personnelle, il est indispensable d'installer Miniconda dans u
 
 
 ```{tip}
-Vous trouverez des conseils pour installer WSL sur la rubrique [Linux](linux).
+Vous trouverez des conseils pour installer WSL dans la rubrique [Linux](linux).
 ```
 
 
