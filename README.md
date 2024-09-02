@@ -2,7 +2,7 @@
 
 ## Compiler le cours dans un environnement conda
 
-Installer [miniconda(https://docs.anaconda.com/miniconda/index.html)] ([tutoriel pour l'installation officiel](https://python.sdv.u-paris.fr/annexe_B_install_python/))
+Installer [miniconda](https://docs.anaconda.com/miniconda/index.html) ([tutoriel pour l'installation officiel](https://python.sdv.u-paris.fr/annexe_B_install_python/))
 
 Créer l'environnement conda :
 
