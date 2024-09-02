@@ -29,12 +29,11 @@ Si vous avez un système d'exploitation MacOS X, vous n'avez rien à faire.
 
 ### Système d'exploitation Windows
 
-Si vous avez un système d'exploitation Windows (Windows 10, Windows 11), il faut que vous installiez *Windows Subsystem for Linux* (WSL).
-
-Voici plusieurs ressources pour vous aider à installer WSL :
+Si vous avez un système d'exploitation Windows (Windows 10, Windows 11), il faut que vous installiez *Windows Subsystem for Linux* (WSL). Voici plusieurs ressources pour vous y aider :
 
 - Article de blog : [Coder sous Windows avec WSL2](https://bioinfo-fr.net/coder-sous-windows-avec-wsl2), [Bioinfo-fr.net](https://bioinfo-fr.net/)
 - [Tutoriel](https://github.com/patrickfuchs/cours-unix/blob/master/wsl.md) de Patrick Fuchs.
 
-Remarque : a priori, depuis les dernières versions de WSL, la prise en charge des environnements graphiques (de Linux dans Windows) est prise en charge nativement.
-
+```{note}
+A priori, depuis les dernières versions de WSL, la prise en charge des environnements graphiques (de Linux dans Windows) est prise en charge nativement.
+```

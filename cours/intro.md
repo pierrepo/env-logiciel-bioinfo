@@ -1,23 +1,23 @@
 # Environnements logiciels en bioinformatique
 
-The cours a pour objectif de vous familiariser avec les environnements logiciels en bioinformatique.
+Ce cours a pour objectif de vous familiariser avec les environnements logiciels en bioinformatique.
 
-Nous aborderons ici des notions autour de Linux, de la reproductibilité des analyses, de conda, miniconda.
+Nous aborderons ici des notions autour de Linux, de la reproductibilité des analyses, de conda, miniconda, bioconda...
 
 ## Prérequis
 
-Pour pouvoir suivre ce cours, vous devez être capable de :
+Pour suivre ce cours, vous devez être capable de :
 
 - Utiliser un shell Linux, notamment les commandes de base (déplacement, manipulation de fichiers et répertoires).
 - Installer des logiciels sur un ordinateur (quelle que soit la méthode).
 - Créer et utiliser un dépôt git sur votre machine (cloner un dépôt, ajouter des fichiers, commiter, pousser, tirer).
-- Manipuler un dépôt git sur GitHub (créer un dépôt, ajouter des collaborateurs, créer des issues, gérer des *pull requests*).
+- Manipuler un dépôt git sur GitHub (créer un dépôt, créer des issues).
 
 Si vous utilisez votre machine personnelle, vous devez disposer :
 - d'un système Unix / Linux (voir la [rubrique suivante](linux)) avec un accès à internet ;
 - d'un accès à internet ;
-- avoir installé [Miniconda](https://docs.anaconda.com/miniconda/) (voir le [tutoriel d'installation](https://python.sdv.u-paris.fr/annexe_B_install_python/)) ;
-- avoir installé Pixi.
+- de [Miniconda](https://docs.anaconda.com/miniconda/) (voir le [tutoriel d'installation](https://python.sdv.u-paris.fr/annexe_B_install_python/)) installé et fonctionnel ;
+- de [Pixi](https://pixi.sh/latest/) installé et fonctionnel.
 
 
 ## Objectifs d'apprentissage
