@@ -1,4 +1,4 @@
-# Environnements logiciel pour la bioinformatique
+# Environnements logiciels pour la bioinformatique
 
 ## Compiler le cours dans un environnement conda
 
@@ -30,6 +30,16 @@ La version HTML du cours se trouve dans le répertoire `cours/_build/html/index.
 
 Installer [Pixi](https://pixi.sh/latest/).
 
+Compiler le cours :
+
 ```bash
 $ pixi run compile
 ```
+
+
+## Licence
+
+![](cours/img/CC-BY-SA.png)
+
+Ce contenu est mis à disposition selon les termes de la licence [Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (CC BY-SA 4.0). Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
+

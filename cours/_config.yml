@@ -3,7 +3,7 @@
 
 title: Environnements logiciel en bioinformatique
 author: Pierre Poulain
-logo: logo.png
+logo: img/logo_UPCite.png
 exclude_patterns: [_build, .pixi, "**.ipynb_checkpoints"]
 
 # Force re-execution of notebooks on each build.

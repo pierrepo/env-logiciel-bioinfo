@@ -34,3 +34,17 @@ Si vous utilisez votre machine personnelle, vous devez disposer :
 
 ```{tableofcontents}
 ```
+
+
+## Licence
+
+![](img/CC-BY-SA.png)
+
+Ce contenu est mis à disposition selon les termes de la licence [Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) (CC BY-SA 4.0). Consultez le fichier [LICENSE](../LICENSE) pour plus de détails.
+
+
+## Colophon
+
+Ce cours a été écrit avec [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) et est hébergé sur [GitHub](https://github.com/pierrepo/env-logiciels-bioinfo).
+
+N'hésitez pas à [créer une issue](https://github.com/pierrepo/env-logiciels-bioinfo/issues/new/) pour signaler toute erreur (ou à m'envoyer un mail)
