@@ -84,7 +84,7 @@ La commande `pixi shell` ouvre un shell dans l'environnement créé par Pixi. On
 
 N'hésitez pas explorer plus en détail Pixi :
 
-- La rubrique [Basic Usage](https://pixi.sh/latest/basic_usage/) de la documentation de Pixi.
-- L'article de blog [7 Reasons to Switch from Conda to Pixi](https://prefix.dev/blog/pixi_a_fast_conda_alternative).
-- L'article de blog [Reproducible Notebooks with Pixi](https://prefix.dev/blog/pixi_jupyter_notebooks).
-- L'article de blog [Pixi - reproducible, scientific software workflows!](https://prefix.dev/blog/pixi_for_scientists).
+- La rubrique « [Basic Usage](https://pixi.sh/latest/basic_usage/) » de la documentation de Pixi.
+- L'article de blog « [7 Reasons to Switch from Conda to Pixi](https://prefix.dev/blog/pixi_a_fast_conda_alternative) ».
+- L'article de blog « [Reproducible Notebooks with Pixi](https://prefix.dev/blog/pixi_jupyter_notebooks) ».
+- L'article de blog « [Pixi - reproducible, scientific software workflows!](https://prefix.dev/blog/pixi_for_scientists) ».
