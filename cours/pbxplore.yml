@@ -1,0 +1,10 @@
+name: pbxplore
+channels:
+    - conda-forge
+    - nodefaults
+dependencies:
+    - python
+    - pip
+    - pip:
+        - weblogo
+        - pbxplore

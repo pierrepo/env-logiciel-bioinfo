@@ -1,25 +1,25 @@
-# Conseils
+# Conclusion
 
 ## Que faire si un logiciel n'est pas disponible dans conda ?
 
-Si le logiciel est un paquet Python disponible dans [PyPI](https://pypi.org/), vous pouvez l'installer avec la directive `pip` directement dans le fichier YAML. Exemple :
+La disponibilité d'un logiciel dans Conda (plus précisément dans un canal) implique que le développeur a « packagé » ce logiciel spécifiquement pour Conda.
+
+Si le logiciel est un paquet Python disponible dans [PyPI](https://pypi.org/), vous pouvez l'installer avec la directive `pip` directement dans le fichier YAML. C'est par exemple le cas pour le programme [PBxplore](https://github.com/pierrepo/PBxplore) :
 
 ```yaml
 name: pbxplore
 channels:
-    - defaults
     - conda-forge
+    - nodefaults
 dependencies:
-    - python=3.7
+    - python
     - pip
-    - numpy
-    - matplotlib
     - pip:
-        - weblogo==3.6.0
+        - weblogo
         - pbxplore
 ```
 
-La première mention de `pip` indique qu'il faut installer `pip` dans l'environnement conda. La seconde mention de `pip` (avec les `:`) spécifie les paquets Python à installer avec `pip`, ici `weblogo` version 3.6.0 et `pbxplore`. Notez que les paquets Python à installer par `pip` ont une indentation supplémentaire.
+La première mention de `pip` indique qu'il faut installer `pip` dans l'environnement conda. La seconde mention de `pip` (avec les `:`) spécifie les paquets Python à installer avec `pip`, ici `weblogo` et `pbxplore`. Notez que les paquets Python à installer par `pip` sont marqués par une indentation supplémentaire.
 
 Si ce n'est pas le cas, vous pouvez :
 
