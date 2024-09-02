@@ -13,7 +13,7 @@ conda env create -f environment.yml
 Charger l'environnement :
 
 ```bash
-conda activate env-logiciel-bioinfo
+conda activate env-logiciels-bioinfo
 ```
 
 Compiler le cours avec [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) :

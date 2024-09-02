@@ -1,4 +1,4 @@
-name: env-logiciel-bioinfo
+name: env-logiciels-bioinfo
 channels:
     - conda-forge
     - nodefaults
