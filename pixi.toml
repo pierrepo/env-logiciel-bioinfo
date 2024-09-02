@@ -2,7 +2,7 @@
 authors = ["Pierre Poulain <pierre.poulain@cupnet.net>"]
 channels = ["conda-forge", "bioconda", "nodefaults"]
 description = "Pixi env for Jupyter Book"
-name = "env-logiciel-bioinfo"
+name = "env-logiciels-bioinfo"
 platforms = ["linux-64"]
 version = "0.1.0"
 
