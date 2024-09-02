@@ -1,0 +1,14 @@
+[project]
+authors = ["Pierre Poulain <pierre.poulain@cupnet.net>"]
+channels = ["conda-forge", "bioconda", "nodefaults"]
+description = "Add a short description here"
+name = "rnaseq"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+fastqc = "*"
+star = ">=2.6"
+samtools = "1.9.*"

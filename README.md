@@ -28,5 +28,8 @@ La version HTML du cours se trouve dans le répertoire `cours/_build/html/index.
 ## Compiler le cours dans un environnement Pixi
 
 
-Installer [Pixi](https://pixi.sh/latest/)
+Installer [Pixi](https://pixi.sh/latest/).
 
+```bash
+$ pixi run jupyter-book build cours
+```

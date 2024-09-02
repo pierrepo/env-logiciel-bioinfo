@@ -12,5 +12,6 @@ chapters:
 - file: conda_utilisation_yaml
 - file: conda_utilisation_salle_info
 - file: conclusion
+- file: pixi
 - file: tp
-- file: markdown-notebooks
+
