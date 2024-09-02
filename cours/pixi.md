@@ -62,7 +62,7 @@ Using htslib 1.9
 Copyright (C) 2018 Genome Research Ltd.
 ```
 
-L'exécution de la commande précédente a pris quelques secondes car Pixi a d'abord créé l'environnement, installé les logiciels et leurs dépendances, puis exécuté la commande `samtools --version`.
+L'exécution de la commande précédente a pris quelques secondes, car Pixi a d'abord créé l'environnement, installé les logiciels et leurs dépendances, puis exécuté la commande `samtools --version`.
 
 Si vous relancez la commande précédente, elle sera exécutée instantanément, car l'environnement est déjà créé.
 
