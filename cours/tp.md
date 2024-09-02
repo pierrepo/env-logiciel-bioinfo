@@ -31,7 +31,7 @@ Sur votre machine personnelle, vous devriez avoir l'environnement `base` et peu 
 Sur les machines des salles informatiques, vous devriez avoir plusieurs environnements déjà créés.
 
 
-## Explorer un environnement 
+## Créer un environnement 
 
 Créez l'environnement conda `rnaseq` à partir du fichier [rnaseq.yml](https://raw.githubusercontent.com/pierrepo/env-logiciels-bioinfo/main/cours/rnaseq.yml).
 
@@ -82,12 +82,17 @@ Déconnectez-vous de votre environnement. Vérifiez que les outils de votre proj
 
 Déposez votre fichier `environment.yml` dans le dépôt GitHub de votre projet court.
 
-Pensez enfin à **écrire une notice**, un fichier `README.md` (au format Markdown) qui décrira très précisément la manière de construire votre environnement conda, éventuellement d'installer les logiciels tierces non disponibles dans conda, et enfin les manières de lancer votre programme. Voici quelques exemples :
+
+## Écrire le fichier README
+
+Pensez à **écrire une notice**, un fichier `README.md` (au format Markdown) qui décrira très précisément la manière de construire votre environnement conda, éventuellement d'installer les logiciels tierces non disponibles dans conda, et enfin les manières de lancer votre programme. Voici quelques exemples :
 
 - outil [MDWS](https://github.com/MDverse/mdws/) du projet MDverse
 - projet [3DGB](https://github.com/data-fun/3d-genome-builder)
 - projet [BioPyAssistant](https://github.com/pierrepo/biopyassistant)
 - projet [GroDecode](https://github.com/pierrepo/grodecoder)
+
+L'article « [Qu'est-ce qu'un bon fichier Lisez-moi.txt](https://bioinfo-fr.net/quest-ce-quun-bon-fichier-lisez-moi-txt) » du blog [Bioinfo-fr.net](https://bioinfo-fr.net/) (que je vous recommande fortement) est également une bonne source d'inspiration.
 
 
 ## Exploration Pixi
