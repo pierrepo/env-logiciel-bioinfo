@@ -4,6 +4,9 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
+- file: linux
+- file: env_logiciels
+- file: conda_ecosysteme
+- file: conda_installation
 - file: notebooks
 - file: markdown-notebooks
