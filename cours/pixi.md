@@ -48,7 +48,7 @@ samtools = "1.9.*"
 Il reprend toutes les caractéristiques du fichier `rnaseq.yml` initial.
 
 ```{warning}
-Pixi installe les logiciels dans un répertoire caché dans le répertoire courant. Il n'est pas donc possible de n'avoir qu'un seul environnement Pixi dans un répertoire donnée.
+Pixi installe les logiciels dans un répertoire caché (`.pixi`) dans le répertoire courant, contrairement à Conda qui centralise tous les environnements au même endroit. Il n'est pas donc possible de n'avoir qu'un seul environnement Pixi dans un répertoire donné.
 ```
 
 ## Utiliser

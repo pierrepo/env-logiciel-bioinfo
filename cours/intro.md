@@ -24,8 +24,8 @@ Si vous utilisez votre machine personnelle, vous devez disposer :
 
 À la fin de ce cours, vous devriez être capable de :
 
-- Expliquer l'important de maitriser son environnement logiciel en bioinformatique.
-- Décrire l'organisation de l'écosytème conda.
+- Expliquer l'important de maîtriser son environnement logiciel en bioinformatique.
+- Décrire l'organisation de l'écosystème conda.
 - Utiliser et créer un environnement conda.
 - Stocker la description d'un environnement conda dans un fichier.
 

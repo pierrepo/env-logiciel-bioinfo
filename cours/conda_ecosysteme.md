@@ -52,6 +52,9 @@ Le terme « Conda » désigne un logiciel, mais également tout un écosystème 
 - Conda-forge et Bioconda sont des canaux de diffusion de logiciels (des sortes d'entrepôts).
 
 
-## Mamba
+Vous êtes invités à visualiser cette vidéo : [Anaconda(Conda) for Python - What & Why?](https://www.youtube.com/watch?v=23aQdrS58e0) (Academind, YouTube, 2018) jusqu'à 5'30.
+
+
+## Une note sur Mamba
 
 À ses débuts, conda était extrêmement lent pour résoudre les dépendances, c'est-à-dire pour trouver la bonne version d'un logiciel et de ses dépendances. Le projet [Mamba](https://github.com/mamba-org/mamba) est né pour résoudre cette lenteur. Il fallait auparavant installer Mamba en plus de Conda. Depuis la [version 23.10.0 de Conda](https://conda.org/blog/2023-11-06-conda-23-10-0-release/) ce n'est plus nécessaire, car la fonctionnalité de Mamba qui permettait de résoudre les dépendances a été intégrée à Conda.

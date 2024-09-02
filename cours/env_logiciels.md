@@ -79,9 +79,11 @@ En bioinformatique, l'environnement logiciel est un élément clé pour plusieur
 
 En bioinformatique, on utilise de nombreux logiciels. Ces logiciels dépendent d'autres programmes, de langages de programmation et de bibliothèques parfois incompatibles entre eux. Par exemple le logiciel A nécessite la bibliothèque B dans la version 1.2 alors que le logiciel C nécessite la bibliothèque B, mais dans la version 2.3. Hors ces deux versions de la bibliothèque B ne sont pas compatibles entre elles.
 
-Comment faire pour utiliser les logiciels A et C ? Les environnements logiciels sont une réponse à ce problème :
+Comment faire pour installer les logiciels A et C sur la même machine ? Les environnements logiciels sont une réponse à ce problème :
 - Dans un premier environnement, on installe le logiciel A avec la bibliothèque B version 1.2. Dans un second 
 - Dans un second environnement, on installe le logiciel C avec la bibliothèque B version 2.3.
+
+Pour une illustration de ce problème de dépendances, vous êtes invités à visualiser cette vidéo : Anaconda(Conda) for Python - What & Why? (Academin, YouTube, 2018) jusqu'à 5'30.
 
 
 ### Isolement des environnements
