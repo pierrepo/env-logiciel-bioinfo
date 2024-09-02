@@ -9,9 +9,9 @@ Par exemple le fichier `rnaseq.yml` utilisé pour construire un environnement po
 ```
 name: rnaseq
 channels:
-    - defaults
-    - bioconda
     - conda-forge
+    - bioconda
+    - nodefaults
 dependencies:
     - fastqc
     - star>=2.6
@@ -21,7 +21,7 @@ dependencies:
 Plusieurs sections sont présentes :
 
 - `name` : nom de l'environnement
-- `channels` : canaux qui seront utilisés pour installer les logiciels. L'ordre de ces canaux est important. Priorité est donnée au dernier canal.
+- `channels` : canaux qui seront utilisés pour installer les logiciels. L'ordre de ces canaux est important. Priorité est donnée au premier canal (d'abord `conda-forge` puis `bioconda`). `nodefaults` signifie que le canal par défaut par Anaconda ne sera pas utilisé.
 - `dependencies` : liste des logiciels à installer. On peut préciser ou pas la version des logiciels voulus.
 
 
@@ -59,17 +59,15 @@ $ conda env export -n ENVNAME --no-builds | grep -v "^prefix:" > envname.yml
 ```
 
 Le fichier `envname.yml` va contenir la liste de **tous** les logiciels installés et de leurs **dépendances**. C'est parfois un peu *too much*.
-Comparez par exemple les fichiers `rnaseq.yml` et `rnaseq_export.yml` obtenus par :
+Comparez par exemple les fichiers [`rnaseq.yml`](https://raw.githubusercontent.com/pierrepo/env-logiciel-bioinfo/main/cours/rnaseq.yml) et [`rnaseq_export.yml`](https://raw.githubusercontent.com/pierrepo/env-logiciel-bioinfo/main/cours/rnaseq_export.yml) obtenus par :
 
 
 ```bash
-$ conda env create -f rnaseq.yml 
+$ conda env create -f rnaseq.yml
 $ conda env export -n rnaseq --no-builds | grep -v "^prefix:" > rnaseq_export.yml
 ```
 
 Vous retrouvez les trois logiciels demandés (`fastqc`, `star` et `samtools`) mais aussi toutes les dépendances de ces logiciels (43 au total).
-
-
 
 
 ## Réinstaller un environnement précédemment exporté

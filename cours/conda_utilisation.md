@@ -69,6 +69,10 @@ $ conda remove jupyterlab
 $ conda create -n test-env
 ```
 
+```{warning}
+Deux environnements ne peuvent pas avoir le même nom.
+```
+
 ### Charger (activer) un environnement
 
 ```bash
@@ -104,7 +108,7 @@ Ici encore le prompt est modifié et revient à `(base)` :
 ```
 
 
-### Lister les logiciels installés dans un environnement
+### Lister les logiciels installés dans l'environnement courant
 
 ```bash
 $ conda list
