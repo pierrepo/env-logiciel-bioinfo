@@ -9,9 +9,8 @@ Si vous êtes dans une salle informatique de l'UFR Sciences du Vivant, Miniconda
 
 ⚠️ Uniquement si cela ne fonctionne pas sur les machines des salles informatiques et sur votre propre machine !
 
-Suivez le tutoriel [Introduction to Conda](https://astrobiomike.github.io/unix/conda-intro) du blog [Happy Belly Bioinformatics](https://astrobiomike.github.io/).
-
-Vous pouvez le réaliser sur votre propre machine ou sur un serveur virtuel en cliquant sur le bouton « launch binder ».
+- Suivez le tutoriel [Introduction to Conda](https://astrobiomike.github.io/unix/conda-intro) du blog [Happy Belly Bioinformatics](https://astrobiomike.github.io/).
+- Vous pouvez le réaliser sur votre propre machine ou sur un serveur virtuel en cliquant sur le bouton « launch binder ».
 
 ```
 
@@ -64,12 +63,12 @@ Que faire si ce n'est pas le cas ?
 Créez un fichier `environment.yml` qui contient la description de votre environnement (`inspirez-vous du fichier rnaseq.yml` précédent), puis installez-le avec `conda`.
 
 ```{tip}
-Dans un premier temps, ne préciser par les versions des outils que vous installez.
-``
+Dans un premier temps, ne précisez par les versions des outils que vous installez.
+```
 
 Chargez votre environnement et vérifiez que tous les langages, bibliothèques et logiciels dont vous avez besoin sont présents.
 
-S'il manque des outils, modifiez le fichier `environment.yml` puis mettez à jour votre environnement avec la commmande :
+S'il manque des outils, modifiez le fichier `environment.yml` puis mettez à jour votre environnement avec la commande :
 
 ```bash
 $ conda env update -f environment.yml

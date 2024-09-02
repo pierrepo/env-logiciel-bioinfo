@@ -41,7 +41,7 @@ Les conteneurs de type Docker ou Singularity sont aussi d'excellentes solutions 
 
 Enfin, osez expérimenter et tester. Maitriser son environnement logiciel est une compétence indispensable en bioinformatique.
 
-```{image} img/i_s_alive.gif
+```{image} img/it_s_alive.gif
 :alt: It's alive!
 :class: bg-primary mb-1
 :align: center
