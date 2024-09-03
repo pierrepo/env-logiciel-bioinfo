@@ -83,3 +83,11 @@ $ conda env update -f environment.yml
 $ conda env create -f envname.yml
 ```
 
+
+## Partager le fichier d'environnement
+
+Je vous conseille de versionner votre fichier d'environnement avec git et de le partager sur GitHub, avec votre code source.
+
+Vous pouvez déposer votre fichier `environment.yml` à la racine de votre dépôt git, à côté de votre fichier `README.md`.
+
+
