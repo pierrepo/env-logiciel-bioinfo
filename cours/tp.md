@@ -60,7 +60,7 @@ Pour chacun de ces éléments, vérifiez s'il est disponible dans conda. Utilise
 
 Que faire si ce n'est pas le cas ?
 
-Créez un fichier `environment.yml` qui contient la description de votre environnement (`inspirez-vous du fichier rnaseq.yml` précédent), puis installez-le avec `conda`.
+Créez un fichier `environment.yml` qui contient la description de votre environnement (inspirez-vous du fichier `rnaseq.yml` précédent), puis installez-le avec `conda`.
 
 ```{tip}
 Dans un premier temps, ne précisez par les versions des outils que vous installez.
@@ -90,7 +90,7 @@ Pensez à **écrire une notice**, un fichier `README.md` (au format Markdown) qu
 - outil [MDWS](https://github.com/MDverse/mdws/) du projet MDverse
 - projet [3DGB](https://github.com/data-fun/3d-genome-builder)
 - projet [BioPyAssistant](https://github.com/pierrepo/biopyassistant)
-- projet [GroDecode](https://github.com/pierrepo/grodecoder)
+- projet [GroDecoder](https://github.com/pierrepo/grodecoder)
 
 L'article « [Qu'est-ce qu'un bon fichier Lisez-moi.txt](https://bioinfo-fr.net/quest-ce-quun-bon-fichier-lisez-moi-txt) » du blog [Bioinfo-fr.net](https://bioinfo-fr.net/) (que je vous recommande fortement) est également une bonne source d'inspiration.
 

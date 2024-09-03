@@ -23,7 +23,7 @@ https://pixi.sh/latest/
 Pixi n'utilise pas les mêmes fichiers de description d'environnement que conda, mais il est possible de les importer dans Pixi :
 
 ```bash
-pixi init ---import rnaseq.yml
+pixi init --import rnaseq.yml
 ```
 
 Un fichier `pixi.toml` est alors créé :
