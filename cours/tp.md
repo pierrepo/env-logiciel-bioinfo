@@ -35,6 +35,22 @@ Sur les machines des salles informatiques, vous devriez avoir plusieurs environn
 
 Créez l'environnement conda `rnaseq` à partir du fichier [rnaseq.yml](https://raw.githubusercontent.com/pierrepo/env-logiciels-bioinfo/main/cours/rnaseq.yml).
 
+
+```{tip}
+Pour les propriétaires d'ordinateur Mac avec des puces Silicon M1, il est possible que la commande 
+
+```bash
+$ conda env create -f rnaseq.yml
+```
+
+ne fonctionne pas, car certains logiciels ne sont pas encore disponibles pour les processeurs de type ARM. Dans ce cas, il faut forcer l'installation de la version "OSX" des logiciels :
+
+```bash
+CONDA_SUBDIR=osx-64 conda env create -f rnaseq.yml
+```
+
+```
+
 Chargez ce nouvel environnement.
 
 Quelle version a été installée pour les logiciels :
@@ -44,6 +60,7 @@ Quelle version a été installée pour les logiciels :
 - star ? (`STAR --version`)
 
 Quelles sont les dernières versions disponibles dans conda ? (<https://anaconda.org/search>)
+
 
 
 ## Créer votre environnement pour le projet court
