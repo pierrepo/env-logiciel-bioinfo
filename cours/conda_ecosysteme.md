@@ -1,6 +1,6 @@
 # L'écosystème Conda 🐍
 
-Le terme « Conda » désigne un logiciel, mais également tout un écosystème qui lui est associé.
+Le terme « Conda » désigne un logiciel, mais également tout un écosystème qui lui est associé, de la distribution au canal logiciel.
 
 ## Anaconda
 

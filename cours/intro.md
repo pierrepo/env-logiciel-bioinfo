@@ -14,7 +14,7 @@ Pour suivre ce cours, vous devez être capable de :
 - Manipuler un dépôt git sur GitHub (créer un dépôt, créer des issues).
 
 Si vous utilisez votre machine personnelle, vous devez disposer :
-- d'un système Unix / Linux (voir la [rubrique suivante](linux)) avec un accès à internet ;
+- d'un système Unix / Linux (voir la [rubrique suivante](linux)) ;
 - d'un accès à internet ;
 - de [Miniconda](https://docs.anaconda.com/miniconda/) (voir le [tutoriel d'installation](https://python.sdv.u-paris.fr/annexe_B_install_python/)) installé et fonctionnel ;
 - de [Pixi](https://pixi.sh/latest/) installé et fonctionnel.
