@@ -8,7 +8,7 @@ Nous aborderons ici des notions autour de Linux, de la reproductibilité des ana
 
 Pour suivre ce cours, vous devez être capable de :
 
-- Utiliser un shell Linux, notamment les commandes de base (déplacement, manipulation de fichiers et répertoires).
+- Utiliser un shell Linux dans un terminal, notamment les commandes de base (déplacement dans l'arborescence, manipulation de fichiers et de répertoires).
 - Installer des logiciels sur un ordinateur (quelle que soit la méthode).
 - Créer et utiliser un dépôt git sur votre machine (cloner un dépôt, ajouter des fichiers, commiter, pousser, tirer).
 - Manipuler un dépôt git sur GitHub (créer un dépôt, créer des issues).
