@@ -52,11 +52,11 @@ Le terme « Conda » désigne un logiciel, mais également tout un écosystème 
 - Conda-forge et Bioconda sont des canaux de diffusion de logiciels (des sortes d'entrepôts de logiciels).
 
 
-Vous êtes invités à visionner cette vidéo : [Anaconda(Conda) for Python - What & Why?](https://www.youtube.com/watch?v=23aQdrS58e0) (Academind, YouTube, 2018), au moins jusqu'à 5'30 en cours, le reste par vous-mêmes.
+Je vous invite à visionner cette vidéo qui est une très bonne introduction à conda et aux environnements virtuels : [Anaconda(Conda) for Python - What & Why?](https://www.youtube.com/watch?v=23aQdrS58e0) (Academind, YouTube, 2018), au moins jusqu'à 5'30.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/23aQdrS58e0?si=-7PZQsy7NR0vOxcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Une note sur Mamba
 
-À ses débuts, conda était extrêmement lent pour résoudre les dépendances, c'est-à-dire pour trouver la bonne version d'un logiciel et de ses dépendances. Le projet [Mamba](https://github.com/mamba-org/mamba) est né pour résoudre cette lenteur. Il fallait auparavant installer Mamba en plus de Conda. Depuis la [version 23.10.0 de Conda](https://conda.org/blog/2023-11-06-conda-23-10-0-release/) ce n'est plus nécessaire, car la fonctionnalité de Mamba qui permettait de résoudre les dépendances a été intégrée nativement à Conda.
+À ses débuts, conda était extrêmement lent pour résoudre les dépendances, c'est-à-dire pour trouver les bonnes versions des logiciels qui soient compatibles entre elles. Le projet [Mamba](https://github.com/mamba-org/mamba) est né pour résoudre cette lenteur. Il fallait auparavant installer Mamba en plus de Conda. Depuis la [version 23.10.0 de Conda](https://conda.org/blog/2023-11-06-conda-23-10-0-release/) ce n'est plus nécessaire, car la fonctionnalité de Mamba qui permettait de résoudre les dépendances a été intégrée nativement à Conda.

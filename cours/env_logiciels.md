@@ -80,7 +80,7 @@ L'environnement logiciel est un outil clé pour plusieurs raisons :
 
 ### Gérer les dépendances
 
-En bioinformatique, on utilise de nombreux logiciels. Ces logiciels dépendent d'autres programmes, de langages de programmation et de bibliothèques parfois incompatibles entre eux. Par exemple le logiciel A nécessite la bibliothèque Z dans la version 1.2 alors que le logiciel B nécessite la bibliothèque Z, mais dans la version 2.3. Hors ces deux versions de la bibliothèque Z ne sont pas compatibles entre elles.
+En bioinformatique, on utilise de nombreux logiciels. Ces logiciels dépendent d'autres programmes, de langages de programmation et de bibliothèques parfois incompatibles entre eux. Par exemple le logiciel A nécessite la bibliothèque Z dans la version 1.2 alors que le logiciel B nécessite la bibliothèque Z, mais dans la version 2.3. Or, ces deux versions de la bibliothèque Z ne sont pas compatibles entre elles.
 
 Comment faire pour installer les logiciels A et B sur la même machine ? Les environnements logiciels sont une réponse à ce problème :
 - Dans un premier environnement, on installe le logiciel A avec la bibliothèque Z version 1.2.
@@ -89,7 +89,7 @@ Comment faire pour installer les logiciels A et B sur la même machine ? Les env
 
 ### Isoler les environnements
 
-Les environnements logiciels sont la plupart du temps des boites isolées du reste du système d'exploitation. C'est-à-dire que lorsqu'on installe un programme dans un environnement logiciel, le programme n'est pas installé là où tous les autres programmes (navigateur web, éditeur de code...) sont installés, mais dans un répertoire différent, dédié à cet environnement. Cela évite ainsi de « polluer » votre système d'exploitation avec des logiciels qui ne vous servent que pour un projet particulier.
+Les environnements logiciels sont la plupart du temps des boites isolées du reste du système d'exploitation. C'est-à-dire que lorsqu'on installe un programme dans un environnement logiciel, le programme n'est pas installé là où tous les autres programmes (navigateur web, traitement de texte...) sont installés, mais dans un répertoire différent, dédié à cet environnement. Cela évite ainsi de « polluer » votre système d'exploitation avec des logiciels qui ne vous servent que pour un projet particulier.
 
 Il est recommandé de créer un environnement logiciel par projet. Cela permet de ne pas mélanger les dépendances des différents projets.
 
